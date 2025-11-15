@@ -5,11 +5,11 @@ class ClinkeyCli < Formula
 	homepage "https://github.com/dim-gggl/clinkey-cli"
 	license "MIT"
   
-	# URL qui pointe vers l'archive .tar.gz de votre release sur GitHub
-	url "https://github.com/dim-gggl/clinkey-cli/archive/refs/tags/v1.1.0.tar.gz"
+	# URL qui pointe vers l'archive .tar.gz de votre release sur Pypi
+	url "https://files.pythonhosted.org/packages/3e/a7/b62c63a25a94808caa6d1779b51fe6c5cf7bdffc9c6391e451d02fe45e5a/clinkey_cli-1.2.0.tar.gz"
   
 	# Le hash de sécurité que vous avez calculé
-	sha256 "85443a3ca90a461455c8f448eb645802d5e6abda6cdc3ee8b3743ed04183b255"
+	sha256 "63457efd9231c23b3e64f9bd422b7c880fcfcb4491e5104932ff33b3a6e5ce32"
   
 	depends_on "python@3.12"
 
@@ -24,7 +24,8 @@ class ClinkeyCli < Formula
 	end
   
 	def install
-	  inreplace "pyproject.toml", "click>=8.3.0", "click>=8.1.7"
+	  inreplace "pyproject.toml", "click>=8.3.0", "rich>=14.1.0"  
+
 	  virtualenv_install_with_resources
 	end
   
