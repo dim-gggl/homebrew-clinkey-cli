@@ -79,7 +79,8 @@ class ClinkeyCli < Formula
     end
   
 	def install
-	  inreplace "pyproject.toml", "click>=8.3.0", "click>=8.1.7"
+	  inreplace "pyproject.toml", "click>=8.3.0", "rich>=14.1.0"  
+
 	  virtualenv_install_with_resources
 	end
   
