@@ -11,7 +11,7 @@ class ClinkeyCli < Formula
 	# Le hash de sécurité que vous avez calculé
 	sha256 "690dd846b97240f23bbe037afe0096d01ca25418e6dc1c664595ba802b762d4c"
   
-	depends_on "python@3.12"
+	depends_on "python@3.10"
 
 	resource "anyio" do
   	  url "https://files.pythonhosted.org/packages/c6/78/7d432127c41b50bccba979505f272c16cbcadcc33645d5fa3a738110ae75/anyio-4.11.0.tar.gz"
