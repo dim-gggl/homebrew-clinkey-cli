@@ -6,10 +6,10 @@ class ClinkeyCli < Formula
 	license "MIT"
   
 	# URL qui pointe vers l'archive .tar.gz de votre release sur GitHub
-	url "https://files.pythonhosted.org/packages/c7/53/7c3cd257928a4f3a1bce4780de9737efaf423bf897f92ae277a71d513f41/clinkey_cli-2.0.0.tar.gz"
+	url "https://files.pythonhosted.org/packages/b6/db/5c34d526f23b9609af34b4f079e3c04afe01f69daa08b2c8eab0c9a7cd8e/clinkey_cli-2.0.1.tar.gz"
   
 	# Le hash de sécurité que vous avez calculé
-	sha256 "690dd846b97240f23bbe037afe0096d01ca25418e6dc1c664595ba802b762d4c"
+	sha256 "18974672afdeabeba874ab8ba575dc953524183491615c90b9b782ce77795ad9"
   
 	depends_on "python@3.12"
 
